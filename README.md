@@ -6,7 +6,7 @@ Display your YouTube playback, Discord channel, and desktop activity as a Rich P
 
 ## 🚀 Quick Start
 
-Download the latest release from the [Releases page](https://github.com/yourusername/discord-rpc-monitor/releases) and extract the ZIP file. Then follow the Installation section below.
+Download the latest release from the [Releases page](https://github.com/XamDaniel-AA/discord-rpc-monitor/releases) and extract the ZIP file. Then follow the Installation section below.
 
 ---
 
@@ -154,7 +154,7 @@ If the clock stops, I'm probably touching grass or sleeping.
 
 ### 1. Extract ZIP File
 
-Download from [Releases](https://github.com/yourusername/discord-rpc-monitor/releases) and extract to your desired location.
+Download from [Releases](https://github.com/XamDaniel-AA/discord-rpc-monitor/releases) and extract to your desired location.
 
 ### 2. Install Python Dependencies
 

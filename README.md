@@ -337,7 +337,7 @@ Then save the file and restart the Python server for the change to take effect.
 
 ## Troubleshooting
 
-**Server won't connect to Discord**
+**Server won't connect to Discord**\n
 Make sure the Discord Desktop application is running before starting the Python server. The Discord app must be fully loaded and in the system tray. Check that you're not already running another RPC application on the same port.
 
 **YouTube not tracking**

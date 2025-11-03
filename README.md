@@ -33,7 +33,7 @@ Website blocklist functionality prevents sensitive websites from appearing in yo
 
 **Discord Desktop App Monitoring** (Native window detection)
 
-Discord Desktop app detection reads your application window title for instant channel information. No browser extension needed - works directly from the Discord Desktop app. Updates appear within 100 milliseconds of switching channels.
+Discord Desktop app detection reads your application window title for instant channel information. No browser extension needed - works directly from the Discord Desktop app. Updates appear within milliseconds of switching channels.
 
 Discord app blocklist hides activity in specific channels and servers. Use flexible substring matching where a single entry blocks any channel or server containing those words. You can also use `#` prefix to block specific channels only (not servers). For example, `'#announcements'` blocks the channel #announcements but not a server named "announcements". When you enter a blocked channel, your RPC immediately clears.
 
@@ -47,7 +47,7 @@ Application blocklist prevents specific desktop programs from appearing in your 
 
 Channel and server blocklist prevents RPC from revealing activity in specific Discord locations. Use substring matching or prefix with `#` for channel-specific blocking. The blocklist works across both Discord Web and Desktop app simultaneously.
 
-Auto-updating Discord bio adds a live timestamp to your Discord profile. Updates every minute showing current time. Includes relative time variable so others see "2 hours ago" format. Customize the message by modifying the code.
+Auto-updating Discord bio adds a live timestamp to your Discord profile. Updates every minute showing current time. Customize the message by modifying the code.
 
 ---
 
@@ -74,7 +74,7 @@ Your Discord profile shows:
 Discord Status Display:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ▶️  RPC
-    Chapter 2: The Story - Song Title
+    Chapter Name - Song Title
     Channel Name · YouTube (2:15/5:30)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
@@ -374,7 +374,7 @@ A: No, this requires Windows-specific APIs that don't exist on other operating s
 A: Yes, but each instance needs a different port number. Run one server with port 5000, another with port 5001, etc.
 
 **Q: What if I close the Python window?**
-A: Your RPC status freezes at the last update. It won't update again until you restart the server.
+A: Your RPC status freezes at the last update and then stops. It won't update again until you restart the server. 
 
 **Q: Do I need to keep the Discord app open?**
 A: Yes, Discord must be running for RPC to display your status. The RPC server communicates with Discord through the Desktop app.
